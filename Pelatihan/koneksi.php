@@ -3,7 +3,7 @@ class koneksi
 {
     public function get_koneksi()
     {
-        $conn=mysqli_connect("localhost","root","","pelatihan_lsp");
+        $conn=mysqli_connect("localhost","root","","db_pelatihan");
         if(mysqli_connect_errno()){
             echo "Koneksi database gagal : " . mysqli_connect_error();
            }
