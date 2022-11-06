@@ -23,15 +23,15 @@ $data = mysqli_query($koneksi,"select * from tbl_dosen");
 while($d = mysqli_fetch_array($data)){
 ?>
 <tr>
-<td><?php echo $no++; ?></td>
-<td><?php echo $d['kd_dosen']; ?></td>
-<td><?php echo $d['nama']; ?></td>
-<td><?php echo $d['alamat']; ?></td>
+    <td><?php echo $no++; ?></td>
+    <td><?php echo $d['kd_dosen']; ?></td>
+    <td><?php echo $d['nama']; ?></td>
+    <td><?php echo $d['alamat']; ?></td>
 
-<td>
-<a href="edit.php?kd_dosen=<?php echo $d['kd_dosen']; ?>">EDIT</a>
-<a href="hapus.php?kd_dosen=<?php echo $d['kd_dosen']; ?>">HAPUS</a>
-</td>
+    <td>
+        <a href="edit.php?kd_dosen=<?php echo $d['kd_dosen']; ?>">EDIT</a>
+        <a href="hapus.php?kd_dosen=<?php echo $d['kd_dosen']; ?>">HAPUS</a>
+    </td>
 </tr>
 <?php
 }

@@ -11,20 +11,20 @@
 <form method="post" action="tambah_aksi.php">
 <table>
 <tr>
-<td>Kode</td>
-<td><input type="number" name="kode_dosen"></td>
+    <td>Kode</td>
+    <td><input type="number" name="kode_dosen"></td>
 </tr>
 <tr>
-<td>Nama Dosen</td>
-<td><input type="text" name="nama_dosen"></td>
+    <td>Nama Dosen</td>
+    <td><input type="text" name="nama_dosen"></td>
 </tr>
 <tr>
-<td>Alamat</td>
-<td><input type="text" name="alamat"></td>
+    <td>Alamat</td>
+    <td><input type="text" name="alamat"></td>
 </tr>
 <tr>
 <td></td>
-<td><input type="submit" value="SIMPAN"></td>
+    <td><input type="submit" value="SIMPAN"></td>
 </tr>
 </table>
 </form>

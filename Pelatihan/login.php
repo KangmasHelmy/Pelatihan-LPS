@@ -1,5 +1,4 @@
 <?php 
-// dengan catatan harus mengincludekan koneksi nya supaya terhubung dengan database.
 include "koneksi.php"; 
 
 

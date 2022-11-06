@@ -4,6 +4,7 @@
     </head>
     <body>
         <h2>Halaman Admin</h2>
+        <h2>181011400990</h2>
         <br/>
         <!– cek apakah sudah login –>
         <?php
@@ -17,7 +18,6 @@
         <a href="dosen"><button>Data Dosen</button></a>||
         <a href="mahasiswa"><button>Data Mahasiswa</button></a>||
         <a href="matakuliah"><button>Data Matakuliah</button></a>||
-        <a href="semester"><button>Data Semester</button></a>
         <br/>
         <h4>Transaksi</h4>
         <a href="jadwal"><button>BUAT JADWAL</button></a>||

@@ -17,12 +17,16 @@ while($d = mysqli_fetch_array($data)){
 ?>
 <form method="post" action="edit_aksi.php">
 <table>
-<tr>
-<td>Nama</td>
+    <tr>
+        <td>Nama</td><td><input type="text" name="nama_matakuliah" value="<?php echo $d['nama']; ?>"></td>
+    </tr>
+    <tr>
+        <td>sks</td><td><input type="text" name="sks" value="<?php echo $d['sks']; ?>"></td>
+    </tr>
 <td>
 <input type="hidden" name="kd_matkul" value="<?php echo $d['kd_matkul']; ?>">
-<input type="text" name="nama_matakuliah" value="<?php echo $d['nama_matakuliah']; ?>">
-<input type="text" name="sks" value="<?php echo $d['sks']; ?>">
+
+
 </td>
 </tr>
 <td></td>
